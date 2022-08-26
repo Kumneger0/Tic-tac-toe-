@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .gameStateParent {
+    position: absolute;
+    top: 5%;
+  }
+  .parent {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 150px;
+  }
+  .parent > div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    text-align: center;
+  }
+  .playAgain {
+    position: absolute;
+    bottom: 20%;
+  }
+  .firstRow {
+    border-top: none !important;
+  }
+  .thirdRow {
+    border-bottom: none !important;
+  }
+  .firstColumn {
+    border-left: none !important;
+  }
+  .thirdColumn {
+    border-right: none !important;
+  }
